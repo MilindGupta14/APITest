@@ -10,3 +10,13 @@ Also make sure your .csv file are pointing to right path.
 #To run test through Snappet.bat
 Keep the batch job file in the Jmeter bin direction.
 Edit the Snappet.bat by entering the .jmx file path. Also need to change the .jtl path for output file 
+
+
+#To view Prometheus Listner output
+Prerequiste:
+Install Prometheus
+Add Endpoint into Target and restart prometheus
+
+Install Grafana
+Add Prometheus as a data source.
+Use the Jmeter.json to build the dashboard in Grafana.
